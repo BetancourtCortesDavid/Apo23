@@ -8,13 +8,13 @@ public class TrabajoEnClaseDos {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("DIgite el año");
-		int año=entrada.nextInt();
+		int year=entrada.nextInt();
 			
-		if ((año % 400 == 0)||(año % 4 == 0) && ((año % 100 != 0))) {
-			System.out.println("El año es bisiesto");
+		if ((year % 400 == 0)||(year % 4 == 0) && ((year % 100 != 0))) {
+			System.out.println("El año "+ year +" es bisiesto");
 		}
 		else {
-			System.out.println("El año no es bisiesto");
+			System.out.println("El año "+year+" no es bisiesto");
 		}
 	}	
 }
